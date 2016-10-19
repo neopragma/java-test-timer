@@ -25,11 +25,9 @@ public void junitTestMethod() {
 }
 ```
 
-The call to ```dumpTimings()``` is optional. 
-
 See the test cases in the project for more usage examples.
 
-The ```dumpTimings()``` method produces output that looks like this:
+The ```dumpTimings()``` method writes the collected timings to the ```PrintStream``` specified on the Timer constructor ```Timer(PrintStream ps)``` or, by default, to ```System.out```. It produces output that looks like this:
 
 ```
 ------------------------------------------------------------
